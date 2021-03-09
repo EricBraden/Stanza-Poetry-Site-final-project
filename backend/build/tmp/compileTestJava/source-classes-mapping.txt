@@ -1,0 +1,6 @@
+stanzafinalproject/demo/JpaWiringTest.java
+ stanzafinalproject.demo.JpaWiringTest
+stanzafinalproject/demo/DemoApplicationTests.java
+ stanzafinalproject.demo.DemoApplicationTests
+stanzafinalproject/demo/PoemControllerTest.java
+ stanzafinalproject.demo.PoemControllerTest

@@ -1,0 +1,46 @@
+stanzafinalproject/demo/controllers/ExamplePoemTypeController.java
+ stanzafinalproject.demo.controllers.ExamplePoemTypeController
+stanzafinalproject/demo/storage/ExamplePoemStorage.java
+ stanzafinalproject.demo.storage.ExamplePoemStorage
+stanzafinalproject/demo/resources/UserPoem.java
+ stanzafinalproject.demo.resources.UserPoem
+stanzafinalproject/demo/resources/ExamplePoemType.java
+ stanzafinalproject.demo.resources.ExamplePoemType
+stanzafinalproject/demo/PoemController.java
+ stanzafinalproject.demo.PoemController
+stanzafinalproject/demo/controllers/UserPoemController.java
+ stanzafinalproject.demo.controllers.UserPoemController
+stanzafinalproject/demo/storage/UserRepository.java
+ stanzafinalproject.demo.storage.UserRepository
+stanzafinalproject/demo/WebConfig.java
+ stanzafinalproject.demo.WebConfig
+stanzafinalproject/demo/resources/User.java
+ stanzafinalproject.demo.resources.User
+stanzafinalproject/demo/controllers/UserController.java
+ stanzafinalproject.demo.controllers.UserController
+stanzafinalproject/demo/storage/ExamplePoemTypeStorage.java
+ stanzafinalproject.demo.storage.ExamplePoemTypeStorage
+stanzafinalproject/demo/storage/UserPoemStorage.java
+ stanzafinalproject.demo.storage.UserPoemStorage
+stanzafinalproject/demo/storage/PoemsStorage.java
+ stanzafinalproject.demo.storage.PoemsStorage
+stanzafinalproject/demo/storage/PoemRepository.java
+ stanzafinalproject.demo.storage.PoemRepository
+stanzafinalproject/demo/storage/ExamplePoemTypeRepository.java
+ stanzafinalproject.demo.storage.ExamplePoemTypeRepository
+stanzafinalproject/demo/resources/Populator.java
+ stanzafinalproject.demo.resources.Populator
+stanzafinalproject/demo/DemoApplication.java
+ stanzafinalproject.demo.DemoApplication
+stanzafinalproject/demo/storage/UserStorage.java
+ stanzafinalproject.demo.storage.UserStorage
+stanzafinalproject/demo/storage/ExamplePoemRepository.java
+ stanzafinalproject.demo.storage.ExamplePoemRepository
+stanzafinalproject/demo/storage/UserPoemRepository.java
+ stanzafinalproject.demo.storage.UserPoemRepository
+stanzafinalproject/demo/controllers/ExamplePoemController.java
+ stanzafinalproject.demo.controllers.ExamplePoemController
+stanzafinalproject/demo/resources/ExamplePoem.java
+ stanzafinalproject.demo.resources.ExamplePoem
+stanzafinalproject/demo/resources/Poems.java
+ stanzafinalproject.demo.resources.Poems
