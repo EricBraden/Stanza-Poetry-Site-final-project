@@ -72,41 +72,6 @@ function addTextEditor() {
     });
   }
 
-  poetryTextEditor = document.getElementById("editor1");
-  syllablesDisplay = document.getElementById(
-    "div--count-of-syllables-per-line"
-  );
-
-  
-  function stripNonAlphanumeric(inString) {
-    let currentString = inString.replace(/[^a-z0-9-' ↵]+/gi, " ");
-    return currentString;
-  }
-  function filterUnnecessaryStrings(inString) {
-    var finalArrayOfWords = allWords.filter(function (el) {
-      return (
-        el != null && el != "" && el != "nbsp" && el != "br" && el != "div"
-      );
-    });
-    return finalArrayOfWords;
-  }
-
-  function updateSyllables() {
-    syllablesDisplay.innerHTML = "";
-    let sizeOfSyllablesArray = arrayOfEverything.length;
-    let arrayCountOfSyllablesForEachLine = new Array(sizeOfSyllablesArray);
-    arrayOfEverything.forEach((line, i) => {
-      let totalSyllablesForThisLine = 0;
-      line.forEach((word) => {
-        totalSyllablesForThisLine += word[1];
-      });
-      arrayCountOfSyllablesForEachLine[i] = totalSyllablesForThisLine;
-    });
-    arrayCountOfSyllablesForEachLine.forEach((element) => {
-      syllablesDisplay.innerHTML += element + "<br>";
-    });
-  }
-
   function createAllArrays() {
     arrayOfEverything = [];
     let fullStringOfAllText = poetryTextEditor.innerHTML;
@@ -170,6 +135,7 @@ function addTextEditor() {
   // 1 second time delay to prevent instantly querying the API:
   let timeout = null;
   poetryTextEditor.addEventListener("keyup", function (e) {
+    console.log("timeout");
     clearTimeout(timeout);
     timeout = setTimeout(function () {
       createAllArrays();

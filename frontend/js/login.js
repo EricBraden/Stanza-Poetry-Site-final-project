@@ -63,7 +63,7 @@ const loginElement = function () {
 
   const newLoginInput = document.createElement("input");
   newLoginInput.classList.add("login-input");
-  newLoginInput.setAttribute("id", "userName");
+  newLoginInput.setAttribute("id", "newUserName");
   newLoginForm.appendChild(newLoginInput);
 
   const newLoginFormSubmit = document.createElement("button");

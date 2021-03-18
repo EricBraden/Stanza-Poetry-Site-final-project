@@ -3,108 +3,8 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2fda06f-76db-4058-9435-02abf1f879cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/stanza.mv.db.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/stanza.mv.db.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/PoemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/controllers/ExamplePoemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/controllers/ExamplePoemTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/controllers/UserPoemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/ExamplePoem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/ExamplePoemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/Poems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/Populator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/resources/UserPoem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/ExamplePoemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/ExamplePoemStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/ExamplePoemTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/ExamplePoemTypeStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/PoemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/PoemsStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/UserPoemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/UserPoemStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stanzafinalproject/demo/storage/UserStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/poem links for api" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/HttpRequest.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stanzafinalproject/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stanzafinalproject/demo/HttpRequests.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stanzafinalproject/demo/JpaWiringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stanzafinalproject/demo/PoemControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/css/responsive-design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/css/stephlyna.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/bigBird-transparent-background (eric's temporary working file).xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/bigBird-transparent-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/corner-stanza-image-0224.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/cottonPaperTexture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/cottonPaperTexture2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/cottonPaperTexture2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/cottonPaperTexture3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/cottonPaperTexture3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/duane-profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/dylon-profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/eric-profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/grayStone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/grayStone2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/grayStone3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/larger-landing-background-0224.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/lyna-profile-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/new-red-book-0224.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/stanza-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/steph-profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/syllables-arrow-(eric's temporary working file).xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/syllables-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/images/syllables-arrow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/devs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/discover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/poem-choice-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/poemTypeView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/prototype--editor-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/syllableCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/user-single-poem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/js/wordGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/prototypes/prototype-datamuseApi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/prototypes/prototype-discover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/prototypes/prototype-editor-formatBar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/prototypes/prototype-editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/prototypes/prototype-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/whiteboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../screenshot-poetry-editor.png" afterDir="false" />
-    </list>
+    <list default="true" id="32f6efb1-9d63-4498-8fa3-f21cadae361c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,9 +15,6 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -125,13 +22,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1pWtRutEnlbKUNdgefsqUQLVMYD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ptzY6TifG4XMBPyLKrk5Da65kQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -150,27 +50,51 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2fda06f-76db-4058-9435-02abf1f879cb" name="Default Changelist" comment="" />
-      <created>1615310669604</created>
+      <changelist id="32f6efb1-9d63-4498-8fa3-f21cadae361c" name="Default Changelist" comment="" />
+      <created>1616017219175</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615310669604</updated>
-      <workItem from="1615310670819" duration="418000" />
+      <updated>1616017219175</updated>
+      <workItem from="1616017220393" duration="1046000" />
+      <workItem from="1616043806144" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1616018487533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616018487533" />
   </component>
 </project>

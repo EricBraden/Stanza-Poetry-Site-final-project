@@ -13,25 +13,17 @@ const clearChildren = function (element) {
   }
 };
 
+
 let header = createHeader();
 const container = document.querySelector(".container");
 container.prepend(header);
+let main = landing();
+container.appendChild(main);
 let footer = createFooter();
 container.appendChild(footer);
 
-const displayHomeView = function (examplePoems) {
-  clearChildren(container);
-  header = createHeader();
-  container.prepend(header);
-  let main = landing(examplePoems);
-  container.appendChild(main);
-  footer = createFooter();
-  container.appendChild(footer);
-};
-
 fetch("http://localhost:8080/api/examplepoems")
   .then((response) => response.json())
-  .then((examplePoems) => displayHomeView(examplePoems))
   .catch((error) => console.log(error));
 
 const getPoemTypes = function () {
@@ -41,16 +33,6 @@ const getPoemTypes = function () {
   })
     .then((response) => response.json())
     .then((examplePoemType) => poemChoiceElement(examplePoemType))
-    .catch((error) => console.log(error));
-};
-
-const getUserPoems = function () {
-  fetch("http://localhost:8080/api/userpoems", {
-    method: "GET",
-    mode: "cors",
-  })
-    .then((response) => response.json())
-    .then((userPoems) => userPoemElement(userPoems))
     .catch((error) => console.log(error));
 };
 
@@ -78,7 +60,9 @@ const getRandomExamplePoem = function (inPoemType) {
         let filtered = examplePoems.filter(
           (onePoem) => onePoem.examplePoemType.typeName === inPoemType
         );
+        console.log(filtered);
         let randomPoem = Math.floor(Math.random() * filtered.length);
+        console.log(filtered[randomPoem]);
         examplePoemDisplay.innerHTML =
           `<a href="` +
           filtered[randomPoem].poemUrl +
@@ -104,7 +88,7 @@ const checkUserLogIn = function (user) {
       console.log(user);
       let userFound = false;
       userList.forEach((currentUser) => {
-        if (currentUser.userName == user) {
+        if (currentUser.userName === user) {
           loggedInUser = currentUser;
           userFound = true;
           userPoemsElement(currentUser);
@@ -129,6 +113,7 @@ const checkUserLogIn = function (user) {
           .then((user) => {
             loggedInUser = user;
             updateUsers(user);
+            console.log(user);
             header.innerHTML = `${user.userName}`;
             header.addEventListener("click", () => {
               updateUserPoems(user);
@@ -186,7 +171,7 @@ const editUserPoem = function (userPoem) {
     .catch((error) => console.log(error));
 };
 
-const updateUserPoems = function (user) {
+const updateUserPoems = function () {
   fetch("http://localhost:8080/api/user/" + loggedInUser.id, {
     method: "GET",
     mode: "cors",
@@ -196,7 +181,7 @@ const updateUserPoems = function (user) {
     .catch((error) => console.log(error));
 };
 
-const updateUsers = function (user) {
+const updateUsers = function () {
   fetch("http://localhost:8080/api/user", {
     method: "GET",
     mode: "cors",
